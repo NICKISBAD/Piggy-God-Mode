@@ -1,0 +1,15 @@
+if _G.GodMode == true then
+ for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+  if v:IsA("MeshPart") then
+   v.CanTouch = false
+	end
+  end
+end
+----------------------------------------------
+if _G.GodMode == false then
+ for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+  if v:IsA("MeshPart") then
+   v.CanTouch = true
+	end
+  end
+end
