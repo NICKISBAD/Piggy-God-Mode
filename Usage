@@ -1,0 +1,4 @@
+_G.GodMode = true
+------------------------
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/Piggy-God-Mode/main/Loadstring"))()
+------------------------
